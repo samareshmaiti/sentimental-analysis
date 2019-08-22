@@ -18,16 +18,16 @@ public class Analysis {
 		System.out.println("Negative: " + sentimentResult.getSentimentClass().getNegative()+"%");
 		System.out.println("Very negative: " + sentimentResult.getSentimentClass().getVeryNegative()+"%");
 
-		String[] str = {
-				" ala 187238 owieoiwue",
-				" bubba )(&(*^&%*^%&^% 92837 ",
-				"koko **&*&^ ... ,kkkd"
-		};
-
-		for( String s: str){
-			s.replaceAll("\\d++", "");
-			System.out.println(s.replaceAll("[^\\w]", ""));
-		}
+//		String[] str = {
+//				" ala 187238 owieoiwue",
+//				" bubba )(&(*^&%*^%&^% 92837 ",
+//				"koko **&*&^ ... ,kkkd"
+//		};
+//
+//		for( String s: str){
+//			s.replaceAll("\\d++", "");
+//			System.out.println(s.replaceAll("[^\\w]", ""));
+//		}
 
 	}
 
